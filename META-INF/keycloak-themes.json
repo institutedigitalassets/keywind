@@ -3,6 +3,18 @@
     {
       "name": "keywind",
       "types": ["login"]
+    },
+    {
+      "name": "aity",
+      "types": ["login"]
+    },
+    {
+      "name": "quantinar",
+      "types": ["login", "email"]
+    },
+    {
+      "name": "synergetics",
+      "types": ["login"]
     }
   ]
 }
