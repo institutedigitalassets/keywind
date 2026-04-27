@@ -32,9 +32,4 @@
       <script defer src="${url.resourcesPath}/${script}" type="module"></script>
     </#list>
   </#if>
-<#if scripts??>
-  <#list scripts as extScript>
-    <script src="${extScript}" type="text/javascript"></script>
-</#list>
-</#if>
 </#macro>

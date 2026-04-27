@@ -68,6 +68,11 @@
   <html<#if realm.internationalizationEnabled> lang="${locale.currentLanguageTag}"</#if>>
     <head>
       <@document.kw script=script />
+      <#if scripts??>
+        <#list scripts as extScript>
+          <script src="${extScript}" type="text/javascript"></script>
+      </#list>
+      </#if>
     </head>
     <@body.kw>
       <@container.kw>
